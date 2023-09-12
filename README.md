@@ -1,4 +1,4 @@
-# FIXME JSON-LD Context _(@dlinc/context-secureld-activity-participant)_
+# SecureLD Activity Participant Context _(@dlinc/context-secureld-activity-participant)_
 
 [![Build status](https://img.shields.io/github/actions/workflow/status/dogwoodlogic/context-secureld-activity-participant/main.yml)](https://github.com/dogwoodlogic/context-secureld-activity-participant/actions/workflow/main.yml)
 [![NPM Version](https://img.shields.io/npm/v/@dlinc/context-secureld-activity-participant.svg)](https://npm.im/@dlinc/context-secureld-activity-participant)
