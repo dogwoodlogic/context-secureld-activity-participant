@@ -14,9 +14,9 @@ module.exports = {
     Individual: 'secureld:Individual',
     Instance: 'secureld:Instance',
     NonPersonEntity: 'secureld:NonPersonEntity',
-    'JCTDEvent': 'secureld:JctdEvent',
-    'OperationalDemo': 'secureld:OperationalDemo',
-    'RDTEDemo': 'secureld:RDTE_Demo',
+    JCTDEvent: 'secureld:JctdEvent',
+    OperationalDemo: 'secureld:OperationalDemo',
+    RDTEDemo: 'secureld:RDTE_Demo',
     SoftwareApplication: 'secureld:SoftwareApplication',
     membership: {
       '@id': 'secureld:membership'

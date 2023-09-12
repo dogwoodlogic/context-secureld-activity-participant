@@ -9,6 +9,7 @@ const constants = {
   // default context output filename under ./contexts/
   CONTEXT_FILENAME: 'activity-participant-v1.jsonld',
   // default context well known URL id
+  // eslint-disable-next-line max-len
   CONTEXT_URL: 'https://dogwoodlogic.github.io/context-secureld-data-service-accreditation/contexts/activity-participant-v1.jsonld',
   // default context CBOR-LD codec id
   // value between 0x0 and 0x7FFF for globally registered term codec values
