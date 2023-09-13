@@ -1,4 +1,4 @@
-# @dlinc/context-secureld-activity-participant ChangeLog
+# @secureld/activity-participant-context ChangeLog
 
 ## 1.0.0 - TBD
 

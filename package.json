@@ -1,5 +1,5 @@
 {
-  "name": "@dlinc/context-secureld-activity-participant",
+  "name": "@secureld/activity-participant-context",
   "version": "0.0.1",
   "description": "SecureLD Activity Participant JSON-LD context for JavaScript.",
   "main": "js/index.js",

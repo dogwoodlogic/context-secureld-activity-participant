@@ -1,17 +1,15 @@
-# SecureLD Activity Participant Context _(@dlinc/context-secureld-activity-participant)_
+# SecureLD Activity Participant Context _(@secureld/activity-participant-context)_
 
 [![Build status](https://img.shields.io/github/actions/workflow/status/dogwoodlogic/context-secureld-activity-participant/main.yml)](https://github.com/dogwoodlogic/context-secureld-activity-participant/actions/workflow/main.yml)
-[![NPM Version](https://img.shields.io/npm/v/@dlinc/context-secureld-activity-participant.svg)](https://npm.im/@dlinc/context-secureld-activity-participant)
+[![NPM Version](https://img.shields.io/npm/v/@secureld/activity-participant-context.svg)](https://npm.im/@secureld/activity-participant-context)
 
 > A SecureLD Activity Participant JSON-LD context for JavaScript.
 
 ## Table of Contents
 
-- [Background](#background)
 - [Install](#install)
 - [Usage](#usage)
 - [Developing](#developing)
-- [Commercial Support](#commercial-support)
 - [License](#license)
 
 ## Install
@@ -20,22 +18,22 @@
 
 To install via NPM:
 
-```
-npm install @dlinc/context-secureld-activity-participant
+```sh
+npm install @secureld/activity-participant-context
 ```
 
 ## Usage
 
 ```js
 // ESM
-import * as ctx from '@dlinc/context-secureld-activity-participant';
+import * as ctx from '@secureld/activity-participant-context';
 // CommonJS
-const ctx = require('@dlinc/context-secureld-activity-participant');
+const ctx = require('@secureld/activity-participant-context');
 const {contexts, constants, appContextMap} = ctx;
 
 // Default context URL
 ctx.CONTEXT_URL
-// -> 'https://w3id.org/FIXME/v1'
+// -> 'https://dogwoodlogic.github.io/...'
 
 // Default context data
 ctx.CONTEXT
@@ -52,6 +50,7 @@ applications.
 ## API
 
 The library exports the following properties:
+
 - `CONTEXT_URL`: Default context URL.
 - `CONTEXT`: Default context data.
 - `CBORLD_VALUE`: Default codec term map value for [CBOR-LD][].
@@ -63,7 +62,7 @@ The library exports the following properties:
 
 ## Status
 
-- `https://w3id.org/FIXME/v1`: Under development. Not stable.
+- `https://dogwoodlogic.github.io/context-secureld-activity-participant/contexts/activity-participant-v1.jsonld`: Under development. Not stable.
 
 ## Developing
 
