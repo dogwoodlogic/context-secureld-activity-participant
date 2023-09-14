@@ -29,6 +29,10 @@ module.exports = {
     description: 'https://schema.org/description',
     location: 'https://schema.org/location',
     startDate: 'https://schema.org/startDate',
-    endDate: 'https://schema.org/endDate'
+    endDate: 'https://schema.org/endDate',
+    service: {
+      '@id': 'secureld:service',
+      '@type': '@id'
+    }
   }
 };
